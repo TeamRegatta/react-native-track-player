@@ -147,7 +147,7 @@ public class MusicManager implements OnAudioFocusChangeListener {
         if(track == null) return;
 
         if(!playback.isRemote()) {
-            requestFocus();
+            // requestFocus();
 
             if(!receivingNoisyEvents) {
                 receivingNoisyEvents = true;
